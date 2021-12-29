@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "information-extraction-demo"
+version = "0.1.0"
+description = "Demo project that shows ML (NLP) capabilities for drug searching"
+authors = ["Piotr Gloger <piotr.gloger@netguru.com"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+pandas = "^1.3.5"
+numpy = "^1.21.5"
+streamlit = "^1.3.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
